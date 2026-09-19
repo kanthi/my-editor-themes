@@ -11,4 +11,4 @@ ln -sfn "$HOME/Workspace/Repos/my-editor-themes/ports/vscode" \
   "$HOME/.cursor/extensions/kanthi.midnight-aurora-subtle"
 ```
 
-Reload the window, then set Color Theme to **Midnight Aurora Subtle**.
+Reload the window, then set Color Theme to a Midnight Aurora variant (Subtle, Void, Dusk, Ember, Tide).
