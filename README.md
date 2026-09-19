@@ -12,8 +12,8 @@ ports/
   vscode/                         VS Code extension (also Cursor, Antigravity IDE)
   antigravity-ide/                install notes for the vscode port
   cursor/                         install notes for the vscode port
-  sublime/                        original Sublime Text scheme + matching UI theme
-  zed/                            not ported yet
+  sublime/                        color schemes + matching UI theme
+  zed/                            theme family (schema v0.2.0)
 ```
 
 Editor-specific files live under `ports/<editor>/`. Do not invent a second palette inside a port — extend `palettes/` first, then map those tokens.
@@ -36,6 +36,7 @@ VS Code, Cursor, and Antigravity IDE share the **vscode** port. Those apps load 
 - [VS Code](ports/vscode/README.md)
 - [Cursor](ports/cursor/README.md)
 - [Sublime Text](ports/sublime/README.md)
+- [Zed](ports/zed/README.md)
 
 ## New editor port
 
