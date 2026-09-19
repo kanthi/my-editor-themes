@@ -1065,12 +1065,15 @@
       }
     },
     {
-      "name": "HTML — tags",
+      "name": "HTML — tags and punctuation",
       "scope": [
         "entity.name.tag.html",
+        "entity.name.tag.custom.html",
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html"
+        "punctuation.definition.tag.end.html",
+        "meta.tag.metadata.doctype.html",
+        "meta.tag.metadata.processing.xml.html"
       ],
       "settings": {
         "foreground": "#bba8d1"
@@ -1079,37 +1082,79 @@
     {
       "name": "HTML — attributes",
       "scope": [
-        "entity.other.attribute-name.html"
+        "entity.other.attribute-name.html",
+        "invalid.deprecated.entity.other.attribute-name.html"
       ],
       "settings": {
         "foreground": "#5db5a0"
       }
     },
     {
-      "name": "CSS/SCSS — tags",
+      "name": "HTML — attribute values",
       "scope": [
-        "entity.name.tag.css",
-        "entity.name.tag.scss",
-        "entity.name.tag.less",
-        "entity.name.tag.custom.css"
-      ],
-      "settings": {
-        "foreground": "#bba8d1"
-      }
-    },
-    {
-      "name": "CSS/SCSS — classes",
-      "scope": [
-        "entity.other.attribute-name.class.css",
-        "entity.other.attribute-name.class.scss",
-        "entity.other.attribute-name.class.less"
+        "string.quoted.double.html",
+        "string.quoted.single.html",
+        "string.unquoted.html"
       ],
       "settings": {
         "foreground": "#98bf93"
       }
     },
     {
-      "name": "CSS/SCSS — ids",
+      "name": "HTML — entities",
+      "scope": [
+        "constant.character.entity.html",
+        "constant.character.entity.named.html",
+        "constant.character.entity.numeric.decimal.html",
+        "constant.character.entity.numeric.hexadecimal.html",
+        "punctuation.definition.entity.html"
+      ],
+      "settings": {
+        "foreground": "#57b5c8"
+      }
+    },
+    {
+      "name": "HTML — equals and comments",
+      "scope": [
+        "punctuation.separator.key-value.html",
+        "punctuation.definition.comment.html",
+        "comment.block.html"
+      ],
+      "settings": {
+        "foreground": "#b8c1cc"
+      }
+    },
+    {
+      "name": "CSS — tags and wildcards",
+      "scope": [
+        "entity.name.tag.css",
+        "entity.name.tag.scss",
+        "entity.name.tag.less",
+        "entity.name.tag.custom.css",
+        "entity.name.tag.custom.less",
+        "entity.name.tag.wildcard.css",
+        "entity.name.tag.wildcard.less"
+      ],
+      "settings": {
+        "foreground": "#bba8d1"
+      }
+    },
+    {
+      "name": "CSS — classes",
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.class.scss",
+        "entity.other.attribute-name.class.less",
+        "punctuation.definition.entity.css",
+        "punctuation.definition.entity.scss",
+        "punctuation.definition.entity.less"
+      ],
+      "settings": {
+        "foreground": "#98bf93"
+      }
+    },
+    {
+      "name": "CSS — ids",
       "scope": [
         "entity.other.attribute-name.id.css",
         "entity.other.attribute-name.id.scss",
@@ -1120,78 +1165,176 @@
       }
     },
     {
-      "name": "CSS/SCSS — pseudo",
+      "name": "CSS — pseudo and attribute selectors",
       "scope": [
         "entity.other.attribute-name.pseudo-class.css",
         "entity.other.attribute-name.pseudo-element.css",
         "entity.other.attribute-name.pseudo-class.scss",
-        "entity.other.attribute-name.pseudo-element.scss"
+        "entity.other.attribute-name.pseudo-element.scss",
+        "entity.other.attribute-name.pseudo-class.less",
+        "entity.other.attribute-name.pseudo-element.less",
+        "meta.attribute-selector.css",
+        "meta.attribute-selector.scss",
+        "meta.attribute-selector.less"
       ],
       "settings": {
         "foreground": "#5db5a0"
       }
     },
     {
-      "name": "CSS/SCSS — property names",
+      "name": "CSS — property names and custom properties",
       "scope": [
         "support.type.property-name.css",
         "support.type.property-name.scss",
         "support.type.property-name.less",
         "support.type.vendored.property-name.css",
-        "support.type.property-name.media.css"
+        "support.type.property-name.media.css",
+        "support.type.property-name.media.less",
+        "support.type.custom-property.less",
+        "support.type.custom-property.name.less",
+        "meta.property-name.css",
+        "meta.property-name.scss",
+        "meta.property-name.less"
       ],
       "settings": {
         "foreground": "#a2c8ec"
       }
     },
     {
-      "name": "CSS/SCSS — values, functions, colors",
+      "name": "CSS — values, functions, colors",
       "scope": [
         "support.constant.property-value.css",
         "support.constant.property-value.scss",
+        "support.constant.property-value.less",
         "support.constant.vendored.property-value.css",
+        "support.function.css",
+        "support.function.scss",
+        "support.function.less",
         "support.function.calc.css",
         "support.function.gradient.css",
         "support.function.misc.css",
+        "support.function.misc.scss",
         "support.function.transform.css",
         "support.function.url.css",
         "support.function.timing-function.css",
+        "support.function.var.less",
         "support.constant.color.w3c-standard-color-name.css",
         "support.constant.color.w3c-extended-color-name.css",
         "support.constant.color.current.css",
-        "constant.other.color.rgb-value.hex.css"
+        "support.constant.color.w3c-standard-color-name.less",
+        "constant.other.color.rgb-value.hex.css",
+        "constant.other.color.rgb-value.less",
+        "support.constant.font-name.css",
+        "support.constant.font-name.less",
+        "support.constant.media.css",
+        "support.constant.media.less"
       ],
       "settings": {
         "foreground": "#57b5c8"
       }
     },
     {
-      "name": "CSS/SCSS — units and important",
+      "name": "CSS — numbers",
       "scope": [
+        "constant.numeric.css",
+        "constant.numeric.scss",
+        "constant.numeric.less"
+      ],
+      "settings": {
+        "foreground": "#d99c85"
+      }
+    },
+    {
+      "name": "CSS — units and important",
+      "scope": [
+        "source.css keyword.other.unit",
+        "source.scss keyword.other.unit",
+        "source.less keyword.other.unit",
+        "keyword.other.unit.css",
+        "keyword.other.unit.scss",
+        "keyword.other.unit.less",
         "keyword.other.unit.percentage.css",
         "keyword.other.important.css",
-        "keyword.other.important.scss"
+        "keyword.other.important.scss",
+        "keyword.other.important.less"
       ],
       "settings": {
         "foreground": "#d68697"
       }
     },
     {
-      "name": "CSS/SCSS — at-rules",
+      "name": "CSS — at-rules",
       "scope": [
+        "keyword.control.at-rule",
         "keyword.control.at-rule.css",
-        "keyword.control.at-rule.media.css",
-        "keyword.control.at-rule.import.css",
-        "keyword.control.at-rule.keyframes.css",
-        "keyword.control.at-rule.supports.css",
-        "keyword.control.at-rule.font-face.css",
-        "keyword.control.at-rule.charset.css",
         "keyword.control.at-rule.scss",
-        "keyword.control.at-rule.import.scss"
+        "keyword.control.at-rule.less",
+        "punctuation.definition.keyword.css",
+        "punctuation.definition.keyword.scss",
+        "punctuation.definition.keyword.less",
+        "keyword.control.each.scss",
+        "keyword.control.for.scss",
+        "keyword.control.if.scss",
+        "keyword.control.else.scss",
+        "keyword.control.while.scss",
+        "keyword.control.return.scss",
+        "keyword.control.content.scss",
+        "keyword.control.warn.scss",
+        "keyword.other.default.scss"
       ],
       "settings": {
         "foreground": "#bba8d1",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "CSS — variables",
+      "scope": [
+        "variable.css",
+        "variable.scss",
+        "variable.argument.css",
+        "variable.interpolation.scss",
+        "support.other.variable.less",
+        "variable.other.readwrite.less",
+        "punctuation.definition.variable.less",
+        "punctuation.definition.interpolation.begin.bracket.curly.scss",
+        "punctuation.definition.interpolation.end.bracket.curly.scss"
+      ],
+      "settings": {
+        "foreground": "#a2c8ec"
+      }
+    },
+    {
+      "name": "CSS — strings",
+      "scope": [
+        "string.quoted.single.css",
+        "string.quoted.double.css",
+        "string.quoted.single.scss",
+        "string.quoted.double.scss",
+        "string.quoted.single.less",
+        "string.quoted.double.less",
+        "string.unquoted.attribute-value.css",
+        "string.unquoted.attribute-value.scss"
+      ],
+      "settings": {
+        "foreground": "#98bf93"
+      }
+    },
+    {
+      "name": "CSS — punctuation",
+      "scope": [
+        "punctuation.separator.key-value.css",
+        "punctuation.separator.key-value.scss",
+        "punctuation.separator.key-value.less",
+        "punctuation.terminator.rule.css",
+        "punctuation.terminator.rule.scss",
+        "punctuation.terminator.rule.less",
+        "punctuation.section.property-list.begin.bracket.curly.css",
+        "punctuation.section.property-list.end.bracket.curly.css",
+        "keyword.operator.combinator.css"
+      ],
+      "settings": {
+        "foreground": "#b8c1cc"
       }
     },
     {

@@ -2,7 +2,7 @@
   "name": "midnight-aurora-subtle",
   "displayName": "Midnight Aurora Subtle",
   "description": "Subtle, low-contrast midnight navy theme. Port of the Sublime Text Midnight Aurora Subtle color scheme.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "kanthi",
   "license": "MIT",
   "engines": {
@@ -21,7 +21,9 @@
     "rust",
     "python",
     "javascript",
-    "typescript"
+    "typescript",
+    "html",
+    "css"
   ],
   "galleryBanner": {
     "color": "#0e1319",

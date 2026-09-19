@@ -36,6 +36,8 @@ Follows the VS Code color theme contribution:
 Generic tokens plus grammar-specific rules for:
 
 - **Frontend:** JavaScript, JSX, TypeScript, TSX, HTML, CSS, SCSS, Less, JSON, GraphQL, YAML, TOML
+  - HTML: tags, attributes, values, entities, doctype
+  - CSS: selectors, properties, units (`px`/`em`/…), at-rules, custom properties, SCSS `$variables`
 - **Backend:** Go, Rust, Python
 - **Also:** Shell
 
