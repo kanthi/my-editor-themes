@@ -30,3 +30,13 @@ Follows the VS Code color theme contribution:
 - workbench `colors`
 - TextMate `tokenColors`
 - `semanticHighlighting` + `semanticTokenColors`
+
+## Language scopes
+
+Generic tokens plus grammar-specific rules for:
+
+- **Frontend:** JavaScript, JSX, TypeScript, TSX, HTML, CSS, SCSS, Less, JSON, GraphQL, YAML, TOML
+- **Backend:** Go, Rust, Python
+- **Also:** Shell
+
+Scopes match the grammars bundled in VS Code / Antigravity IDE (`source.go`, `source.rust`, MagicPython, JS/TS/TSX, HTML, CSS). Semantic tokens cover rust-analyzer, gopls, and Pylance (`lifetime`, `macro`, `builtinType`, `decorator`, `selfKeyword`).

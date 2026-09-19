@@ -42,7 +42,24 @@
     "enumMember": "#57b5c8",
     "operator": "#b8c1cc",
     "punctuation": "#b8c1cc",
-    "regexp": "#76c6b3"
+    "regexp": "#76c6b3",
+    "lifetime": "#76c6b3",
+    "attribute": "#5db5a0",
+    "decorator": "#5db5a0",
+    "builtinType": "#5db5a0",
+    "typeAlias": "#5db5a0",
+    "namespace": "#76c6b3",
+    "label": "#d28e9d",
+    "event": "#57b5c8",
+    "formatSpecifier": "#57b5c8",
+    "escapeSequence": "#57b5c8",
+    "selfKeyword": {
+      "foreground": "#a2c8ec",
+      "fontStyle": "italic"
+    },
+    "variable.constant": "#57b5c8",
+    "property.readonly": "#57b5c8",
+    "macroBang": "#57b5c8"
   },
   "colors": {
     "foreground": "#c5cdd6",
@@ -498,7 +515,6 @@
         "entity.other.inherited-class",
         "support.type",
         "support.class",
-        "storage.type",
         "storage.type.primitive"
       ],
       "settings": {
@@ -796,6 +812,745 @@
       ],
       "settings": {
         "foreground": "#d28e6c"
+      }
+    },
+    {
+      "name": "JS/TS — const let var type interface enum class function",
+      "scope": [
+        "storage.type.js",
+        "storage.type.jsx",
+        "storage.type.ts",
+        "storage.type.tsx",
+        "storage.type.function.js",
+        "storage.type.function.jsx",
+        "storage.type.function.ts",
+        "storage.type.function.tsx",
+        "storage.type.function.arrow.js",
+        "storage.type.function.arrow.jsx",
+        "storage.type.function.arrow.ts",
+        "storage.type.function.arrow.tsx",
+        "storage.type.class.js",
+        "storage.type.class.jsx",
+        "storage.type.class.ts",
+        "storage.type.class.tsx",
+        "storage.type.interface.js",
+        "storage.type.interface.ts",
+        "storage.type.interface.tsx",
+        "storage.type.enum.js",
+        "storage.type.enum.ts",
+        "storage.type.enum.tsx",
+        "storage.type.type.js",
+        "storage.type.type.ts",
+        "storage.type.type.tsx",
+        "storage.type.namespace.js",
+        "storage.type.namespace.ts",
+        "storage.type.namespace.tsx",
+        "storage.modifier.js",
+        "storage.modifier.jsx",
+        "storage.modifier.ts",
+        "storage.modifier.tsx",
+        "storage.modifier.async.js",
+        "storage.modifier.async.jsx",
+        "storage.modifier.async.ts",
+        "storage.modifier.async.tsx"
+      ],
+      "settings": {
+        "foreground": "#bba8d1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JS/TS — import export from as default",
+      "scope": [
+        "keyword.control.import.js",
+        "keyword.control.import.jsx",
+        "keyword.control.import.ts",
+        "keyword.control.import.tsx",
+        "keyword.control.export.js",
+        "keyword.control.export.jsx",
+        "keyword.control.export.ts",
+        "keyword.control.export.tsx",
+        "keyword.control.from.js",
+        "keyword.control.from.jsx",
+        "keyword.control.from.ts",
+        "keyword.control.from.tsx",
+        "keyword.control.as.js",
+        "keyword.control.as.jsx",
+        "keyword.control.as.ts",
+        "keyword.control.as.tsx",
+        "keyword.control.default.js",
+        "keyword.control.default.jsx",
+        "keyword.control.default.ts",
+        "keyword.control.default.tsx",
+        "keyword.control.require.js",
+        "keyword.control.require.ts"
+      ],
+      "settings": {
+        "foreground": "#bba8d1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JS/TS — flow and new",
+      "scope": [
+        "keyword.control.flow.js",
+        "keyword.control.flow.jsx",
+        "keyword.control.flow.ts",
+        "keyword.control.flow.tsx",
+        "keyword.control.loop.js",
+        "keyword.control.loop.jsx",
+        "keyword.control.loop.ts",
+        "keyword.control.loop.tsx",
+        "keyword.control.conditional.js",
+        "keyword.control.conditional.jsx",
+        "keyword.control.conditional.ts",
+        "keyword.control.conditional.tsx",
+        "keyword.control.trycatch.js",
+        "keyword.control.trycatch.jsx",
+        "keyword.control.trycatch.ts",
+        "keyword.control.trycatch.tsx",
+        "keyword.control.switch.js",
+        "keyword.control.switch.jsx",
+        "keyword.control.switch.ts",
+        "keyword.control.switch.tsx",
+        "keyword.control.new.js",
+        "keyword.control.new.jsx",
+        "keyword.control.new.ts",
+        "keyword.control.new.tsx",
+        "keyword.operator.new.js",
+        "keyword.operator.new.jsx",
+        "keyword.operator.new.ts",
+        "keyword.operator.new.tsx"
+      ],
+      "settings": {
+        "foreground": "#bba8d1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JS/TS — functions",
+      "scope": [
+        "entity.name.function.js",
+        "entity.name.function.jsx",
+        "entity.name.function.ts",
+        "entity.name.function.tsx",
+        "entity.name.function.tagged-template.js",
+        "entity.name.function.tagged-template.jsx",
+        "entity.name.function.tagged-template.ts",
+        "entity.name.function.tagged-template.tsx",
+        "meta.function-call.js",
+        "meta.function-call.jsx",
+        "meta.function-call.ts",
+        "meta.function-call.tsx"
+      ],
+      "settings": {
+        "foreground": "#57b5c8"
+      }
+    },
+    {
+      "name": "JS/TS — types",
+      "scope": [
+        "entity.name.type.js",
+        "entity.name.type.ts",
+        "entity.name.type.tsx",
+        "entity.name.type.class.js",
+        "entity.name.type.class.ts",
+        "entity.name.type.class.tsx",
+        "entity.name.type.interface.js",
+        "entity.name.type.interface.ts",
+        "entity.name.type.interface.tsx",
+        "entity.name.type.alias.js",
+        "entity.name.type.alias.ts",
+        "entity.name.type.alias.tsx",
+        "entity.name.type.enum.js",
+        "entity.name.type.enum.ts",
+        "entity.name.type.enum.tsx",
+        "entity.name.type.module.js",
+        "entity.name.type.module.ts",
+        "entity.name.type.module.tsx",
+        "support.type.primitive.js",
+        "support.type.primitive.ts",
+        "support.type.primitive.tsx",
+        "support.type.builtin.js",
+        "support.type.builtin.ts",
+        "support.type.builtin.tsx",
+        "support.class.js",
+        "support.class.ts",
+        "support.class.tsx",
+        "support.class.promise.js",
+        "support.class.promise.ts",
+        "support.class.promise.tsx"
+      ],
+      "settings": {
+        "foreground": "#5db5a0"
+      }
+    },
+    {
+      "name": "JS/TS — this super arguments",
+      "scope": [
+        "variable.language.this.js",
+        "variable.language.this.jsx",
+        "variable.language.this.ts",
+        "variable.language.this.tsx",
+        "variable.language.super.js",
+        "variable.language.super.jsx",
+        "variable.language.super.ts",
+        "variable.language.super.tsx",
+        "variable.language.arguments.js",
+        "variable.language.arguments.ts"
+      ],
+      "settings": {
+        "foreground": "#a2c8ec",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JS/TS — template interpolation",
+      "scope": [
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js",
+        "punctuation.definition.template-expression.begin.jsx",
+        "punctuation.definition.template-expression.end.jsx",
+        "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.end.ts",
+        "punctuation.definition.template-expression.begin.tsx",
+        "punctuation.definition.template-expression.end.tsx"
+      ],
+      "settings": {
+        "foreground": "#57b5c8"
+      }
+    },
+    {
+      "name": "JSX/TSX — tags and components",
+      "scope": [
+        "entity.name.tag.js",
+        "entity.name.tag.jsx",
+        "entity.name.tag.ts",
+        "entity.name.tag.tsx",
+        "support.class.component.js",
+        "support.class.component.jsx",
+        "support.class.component.ts",
+        "support.class.component.tsx"
+      ],
+      "settings": {
+        "foreground": "#bba8d1"
+      }
+    },
+    {
+      "name": "JSX/TSX — attributes",
+      "scope": [
+        "entity.other.attribute-name.js",
+        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.ts",
+        "entity.other.attribute-name.tsx"
+      ],
+      "settings": {
+        "foreground": "#5db5a0"
+      }
+    },
+    {
+      "name": "JSX/TSX — tag punctuation",
+      "scope": [
+        "punctuation.definition.tag.begin.js",
+        "punctuation.definition.tag.end.js",
+        "punctuation.definition.tag.begin.jsx",
+        "punctuation.definition.tag.end.jsx",
+        "punctuation.definition.tag.begin.ts",
+        "punctuation.definition.tag.end.ts",
+        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.tsx"
+      ],
+      "settings": {
+        "foreground": "#b8c1cc"
+      }
+    },
+    {
+      "name": "HTML — tags",
+      "scope": [
+        "entity.name.tag.html",
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
+      ],
+      "settings": {
+        "foreground": "#bba8d1"
+      }
+    },
+    {
+      "name": "HTML — attributes",
+      "scope": [
+        "entity.other.attribute-name.html"
+      ],
+      "settings": {
+        "foreground": "#5db5a0"
+      }
+    },
+    {
+      "name": "CSS/SCSS — tags",
+      "scope": [
+        "entity.name.tag.css",
+        "entity.name.tag.scss",
+        "entity.name.tag.less",
+        "entity.name.tag.custom.css"
+      ],
+      "settings": {
+        "foreground": "#bba8d1"
+      }
+    },
+    {
+      "name": "CSS/SCSS — classes",
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.class.scss",
+        "entity.other.attribute-name.class.less"
+      ],
+      "settings": {
+        "foreground": "#98bf93"
+      }
+    },
+    {
+      "name": "CSS/SCSS — ids",
+      "scope": [
+        "entity.other.attribute-name.id.css",
+        "entity.other.attribute-name.id.scss",
+        "entity.other.attribute-name.id.less"
+      ],
+      "settings": {
+        "foreground": "#d68697"
+      }
+    },
+    {
+      "name": "CSS/SCSS — pseudo",
+      "scope": [
+        "entity.other.attribute-name.pseudo-class.css",
+        "entity.other.attribute-name.pseudo-element.css",
+        "entity.other.attribute-name.pseudo-class.scss",
+        "entity.other.attribute-name.pseudo-element.scss"
+      ],
+      "settings": {
+        "foreground": "#5db5a0"
+      }
+    },
+    {
+      "name": "CSS/SCSS — property names",
+      "scope": [
+        "support.type.property-name.css",
+        "support.type.property-name.scss",
+        "support.type.property-name.less",
+        "support.type.vendored.property-name.css",
+        "support.type.property-name.media.css"
+      ],
+      "settings": {
+        "foreground": "#a2c8ec"
+      }
+    },
+    {
+      "name": "CSS/SCSS — values, functions, colors",
+      "scope": [
+        "support.constant.property-value.css",
+        "support.constant.property-value.scss",
+        "support.constant.vendored.property-value.css",
+        "support.function.calc.css",
+        "support.function.gradient.css",
+        "support.function.misc.css",
+        "support.function.transform.css",
+        "support.function.url.css",
+        "support.function.timing-function.css",
+        "support.constant.color.w3c-standard-color-name.css",
+        "support.constant.color.w3c-extended-color-name.css",
+        "support.constant.color.current.css",
+        "constant.other.color.rgb-value.hex.css"
+      ],
+      "settings": {
+        "foreground": "#57b5c8"
+      }
+    },
+    {
+      "name": "CSS/SCSS — units and important",
+      "scope": [
+        "keyword.other.unit.percentage.css",
+        "keyword.other.important.css",
+        "keyword.other.important.scss"
+      ],
+      "settings": {
+        "foreground": "#d68697"
+      }
+    },
+    {
+      "name": "CSS/SCSS — at-rules",
+      "scope": [
+        "keyword.control.at-rule.css",
+        "keyword.control.at-rule.media.css",
+        "keyword.control.at-rule.import.css",
+        "keyword.control.at-rule.keyframes.css",
+        "keyword.control.at-rule.supports.css",
+        "keyword.control.at-rule.font-face.css",
+        "keyword.control.at-rule.charset.css",
+        "keyword.control.at-rule.scss",
+        "keyword.control.at-rule.import.scss"
+      ],
+      "settings": {
+        "foreground": "#bba8d1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JSON — keys",
+      "scope": [
+        "support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#a2c8ec"
+      }
+    },
+    {
+      "name": "Python — def class lambda async",
+      "scope": [
+        "storage.type.function.python",
+        "storage.type.function.async.python",
+        "storage.type.function.lambda.python",
+        "storage.type.class.python",
+        "storage.modifier.declaration.python",
+        "keyword.control.flow.python",
+        "keyword.control.import.python"
+      ],
+      "settings": {
+        "foreground": "#bba8d1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python — functions",
+      "scope": [
+        "entity.name.function.python",
+        "support.function.builtin.python",
+        "support.function.magic.python",
+        "meta.function-call.generic.python",
+        "meta.function-call.python"
+      ],
+      "settings": {
+        "foreground": "#57b5c8"
+      }
+    },
+    {
+      "name": "Python — types and classes",
+      "scope": [
+        "entity.name.type.class.python",
+        "entity.other.inherited-class.python",
+        "support.type.python",
+        "support.type.exception.python",
+        "support.type.metaclass.python"
+      ],
+      "settings": {
+        "foreground": "#5db5a0"
+      }
+    },
+    {
+      "name": "Python — decorators",
+      "scope": [
+        "entity.name.function.decorator.python",
+        "punctuation.definition.decorator.python",
+        "meta.function.decorator.python",
+        "meta.attribute.python"
+      ],
+      "settings": {
+        "foreground": "#5db5a0"
+      }
+    },
+    {
+      "name": "Python — self cls",
+      "scope": [
+        "variable.language.special.self.python",
+        "variable.language.special.cls.python",
+        "variable.parameter.function.language.special.self.python",
+        "variable.parameter.function.language.special.cls.python"
+      ],
+      "settings": {
+        "foreground": "#a2c8ec",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python — magic names and constants",
+      "scope": [
+        "support.variable.magic.python",
+        "constant.language.python",
+        "constant.other.caps.python",
+        "constant.other.ellipsis.python"
+      ],
+      "settings": {
+        "foreground": "#d68697"
+      }
+    },
+    {
+      "name": "Python — f-string placeholders",
+      "scope": [
+        "constant.character.format.placeholder.other.python",
+        "storage.type.format.python"
+      ],
+      "settings": {
+        "foreground": "#57b5c8"
+      }
+    },
+    {
+      "name": "Python — docstrings",
+      "scope": [
+        "string.quoted.docstring.multi.python",
+        "string.quoted.docstring.single.python",
+        "string.quoted.docstring.raw.multi.python",
+        "string.quoted.docstring.raw.single.python"
+      ],
+      "settings": {
+        "foreground": "#6e8093",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Go — keywords",
+      "scope": [
+        "keyword.package.go",
+        "keyword.import.go",
+        "keyword.function.go",
+        "keyword.type.go",
+        "keyword.var.go",
+        "keyword.const.go",
+        "keyword.struct.go",
+        "keyword.interface.go",
+        "keyword.map.go",
+        "keyword.channel.go",
+        "keyword.control.go",
+        "keyword.control.import.go"
+      ],
+      "settings": {
+        "foreground": "#bba8d1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Go — builtin types",
+      "scope": [
+        "storage.type.numeric.go",
+        "storage.type.byte.go",
+        "storage.type.boolean.go",
+        "storage.type.string.go",
+        "storage.type.error.go",
+        "storage.type.rune.go",
+        "storage.type.uintptr.go",
+        "entity.name.type.go",
+        "entity.name.type.any.go",
+        "entity.name.type.comparable.go"
+      ],
+      "settings": {
+        "foreground": "#5db5a0"
+      }
+    },
+    {
+      "name": "Go — functions",
+      "scope": [
+        "entity.name.function.go",
+        "entity.name.function.support.go",
+        "entity.name.function.support.builtin.go"
+      ],
+      "settings": {
+        "foreground": "#57b5c8"
+      }
+    },
+    {
+      "name": "Go — packages and imports",
+      "scope": [
+        "entity.name.import.go",
+        "entity.name.type.package.go",
+        "variable.other.import.go"
+      ],
+      "settings": {
+        "foreground": "#76c6b3"
+      }
+    },
+    {
+      "name": "Go — variables",
+      "scope": [
+        "variable.other.go",
+        "variable.other.assignment.go",
+        "variable.parameter.go"
+      ],
+      "settings": {
+        "foreground": "#a2c8ec"
+      }
+    },
+    {
+      "name": "Go — constants",
+      "scope": [
+        "constant.language.boolean.go",
+        "constant.language.null.go",
+        "constant.language.iota.go",
+        "variable.other.constant.go"
+      ],
+      "settings": {
+        "foreground": "#d68697"
+      }
+    },
+    {
+      "name": "Go — channel and address operators",
+      "scope": [
+        "keyword.operator.channel.go",
+        "keyword.operator.address.go",
+        "keyword.operator.ellipsis.go"
+      ],
+      "settings": {
+        "foreground": "#b8c1cc"
+      }
+    },
+    {
+      "name": "Rust — keywords",
+      "scope": [
+        "keyword.control.rust",
+        "keyword.other.rust",
+        "keyword.other.fn.rust",
+        "keyword.other.crate.rust",
+        "keyword.declaration.enum.rust",
+        "keyword.declaration.struct.rust",
+        "keyword.declaration.trait.rust",
+        "keyword.declaration.type.rust",
+        "storage.modifier.rust",
+        "storage.modifier.mut.rust"
+      ],
+      "settings": {
+        "foreground": "#bba8d1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Rust — types",
+      "scope": [
+        "entity.name.type.rust",
+        "entity.name.type.struct.rust",
+        "entity.name.type.enum.rust",
+        "entity.name.type.trait.rust",
+        "entity.name.type.declaration.rust",
+        "entity.name.type.primitive.rust",
+        "entity.name.type.numeric.rust",
+        "entity.name.type.option.rust",
+        "entity.name.type.result.rust",
+        "storage.type.rust"
+      ],
+      "settings": {
+        "foreground": "#5db5a0"
+      }
+    },
+    {
+      "name": "Rust — functions and macros",
+      "scope": [
+        "entity.name.function.rust",
+        "entity.name.function.macro.rust",
+        "entity.name.function.macro.rules.rust",
+        "entity.name.type.macro.rust",
+        "meta.function.call.rust",
+        "keyword.operator.macro.dollar.rust"
+      ],
+      "settings": {
+        "foreground": "#57b5c8"
+      }
+    },
+    {
+      "name": "Rust — modules and namespaces",
+      "scope": [
+        "entity.name.module.rust",
+        "entity.name.namespace.rust"
+      ],
+      "settings": {
+        "foreground": "#76c6b3"
+      }
+    },
+    {
+      "name": "Rust — lifetimes",
+      "scope": [
+        "entity.name.type.lifetime.rust"
+      ],
+      "settings": {
+        "foreground": "#76c6b3",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Rust — attributes",
+      "scope": [
+        "meta.attribute.rust"
+      ],
+      "settings": {
+        "foreground": "#5db5a0"
+      }
+    },
+    {
+      "name": "Rust — self super",
+      "scope": [
+        "variable.language.self.rust",
+        "variable.language.super.rust"
+      ],
+      "settings": {
+        "foreground": "#a2c8ec",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Rust — constants and bools",
+      "scope": [
+        "constant.language.bool.rust",
+        "constant.other.caps.rust"
+      ],
+      "settings": {
+        "foreground": "#d68697"
+      }
+    },
+    {
+      "name": "Rust — member access",
+      "scope": [
+        "keyword.operator.access.dot.rust"
+      ],
+      "settings": {
+        "foreground": "#d28e9d"
+      }
+    },
+    {
+      "name": "Shell — commands and builtins",
+      "scope": [
+        "entity.name.function.shell",
+        "variable.function.shell",
+        "support.function.builtin.shell"
+      ],
+      "settings": {
+        "foreground": "#57b5c8"
+      }
+    },
+    {
+      "name": "Shell — options",
+      "scope": [
+        "variable.parameter.option.shell",
+        "meta.parameter.option.shell"
+      ],
+      "settings": {
+        "foreground": "#76c6b3"
+      }
+    },
+    {
+      "name": "YAML / TOML keys",
+      "scope": [
+        "entity.name.tag.yaml",
+        "support.type.property-name.toml"
+      ],
+      "settings": {
+        "foreground": "#a2c8ec"
+      }
+    },
+    {
+      "name": "GraphQL",
+      "scope": [
+        "entity.name.type.graphql",
+        "support.type.builtin.graphql",
+        "entity.name.function.graphql",
+        "entity.alias.graphql"
+      ],
+      "settings": {
+        "foreground": "#5db5a0"
       }
     }
   ]
