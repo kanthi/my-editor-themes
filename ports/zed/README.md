@@ -1,5 +1,18 @@
 # Zed
 
-Not ported yet.
+Zed theme family for Midnight Aurora. One JSON file, five dark variants.
 
-When added, this folder should contain a Zed theme JSON that maps [../../palettes/midnight-aurora-subtle.json](../../palettes/midnight-aurora-subtle.json) to Zed's `theme` / `syntax` / `players` keys. Do not invent new syntax colors; add extra UI roles to the palette if Zed needs them.
+File: [midnight-aurora.json](midnight-aurora.json)  
+Schema: `https://zed.dev/schema/themes/v0.2.0.json`
+
+## Install
+
+```sh
+mkdir -p "$HOME/.config/zed/themes"
+cp -p "$HOME/Workspace/Repos/my-editor-themes/ports/zed/midnight-aurora.json" \
+  "$HOME/.config/zed/themes/midnight-aurora.json"
+```
+
+Then **theme selector** → Midnight Aurora Subtle / Void / Dusk / Ember / Tide.
+
+Do not invent syntax hex here. Map from `palettes/midnight-aurora-*.json`.

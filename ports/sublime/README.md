@@ -1,27 +1,25 @@
 # Sublime Text
 
-Original Midnight Aurora Subtle files, copied from the current Sublime Text User package.
+Sublime Text color schemes for the Midnight Aurora family, plus the original Aurora UI theme.
 
 | File | Role |
 |------|------|
-| `Midnight Aurora Subtle.sublime-color-scheme` | Syntax colors (current ST color scheme) |
-| `Midnight Aurora.sublime-theme` | Matching UI chrome (sidebar, tabs, status bar) |
+| `Midnight Aurora Subtle.sublime-color-scheme` | Original syntax colors |
+| `Midnight Aurora Void.sublime-color-scheme` | Near-black |
+| `Midnight Aurora Dusk.sublime-color-scheme` | Lifted navy |
+| `Midnight Aurora Ember.sublime-color-scheme` | Warm dark |
+| `Midnight Aurora Tide.sublime-color-scheme` | Cool blue-black |
+| `Midnight Aurora.sublime-theme` | Matching UI chrome |
 
-The live Sublime setup may pair this color scheme with a different UI theme (for example Zed Dark). This port keeps the Aurora UI theme next to the scheme so the pair stays in the repo.
+The live setup may pair a color scheme with a different UI theme (for example Zed Dark).
 
 ## Install
 
-Copy into `~/Library/Application Support/Sublime Text/Packages/User/`:
-
 ```sh
-cp -p "Midnight Aurora Subtle.sublime-color-scheme" \
+cp -p Midnight\ Aurora*.sublime-color-scheme \
   "$HOME/Library/Application Support/Sublime Text/Packages/User/"
 cp -p "Midnight Aurora.sublime-theme" \
   "$HOME/Library/Application Support/Sublime Text/Packages/User/"
 ```
 
-Then in Preferences:
-
-```json
-"color_scheme": "Midnight Aurora Subtle.sublime-color-scheme"
-```
+Then set `color_scheme` to one of the Midnight Aurora `*.sublime-color-scheme` files.

@@ -24,11 +24,11 @@ VS Code, Cursor, and Antigravity IDE share the **vscode** port. Those apps load 
 
 | Theme | Background | Shift | Ports |
 |-------|------------|-------|-------|
-| Midnight Aurora Subtle | `#0e1319` navy | original | vscode, sublime |
-| Midnight Aurora Void | `#080b0f` near-black | muted accents | vscode |
-| Midnight Aurora Dusk | `#161c26` lifted navy | brighter chrome | vscode |
-| Midnight Aurora Ember | `#13110f` warm dark | sage / rose / amber | vscode |
-| Midnight Aurora Tide | `#0b121a` blue-black | ice cyan / steel purple | vscode |
+| Midnight Aurora Subtle | `#0e1319` navy | original | vscode, sublime, zed |
+| Midnight Aurora Void | `#080b0f` near-black | muted accents | vscode, sublime, zed |
+| Midnight Aurora Dusk | `#161c26` lifted navy | brighter chrome | vscode, sublime, zed |
+| Midnight Aurora Ember | `#13110f` warm dark | sage / rose / amber | vscode, sublime, zed |
+| Midnight Aurora Tide | `#0b121a` blue-black | ice cyan / steel purple | vscode, sublime, zed |
 
 ## Install
 
