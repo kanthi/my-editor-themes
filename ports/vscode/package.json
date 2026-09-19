@@ -1,8 +1,8 @@
 {
   "name": "midnight-aurora-subtle",
-  "displayName": "Midnight Aurora Subtle",
-  "description": "Subtle, low-contrast midnight navy theme. Port of the Sublime Text Midnight Aurora Subtle color scheme.",
-  "version": "0.2.1",
+  "displayName": "Midnight Aurora",
+  "description": "Subtle, low-contrast midnight navy themes. Dark variants: Subtle, Void, Dusk, Ember, Tide.",
+  "version": "0.3.0",
   "publisher": "kanthi",
   "license": "MIT",
   "engines": {
@@ -36,6 +36,30 @@
         "label": "Midnight Aurora Subtle",
         "uiTheme": "vs-dark",
         "path": "./themes/midnight-aurora-subtle-color-theme.json"
+      },
+      {
+        "id": "midnight-aurora-void",
+        "label": "Midnight Aurora Void",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-aurora-void-color-theme.json"
+      },
+      {
+        "id": "midnight-aurora-dusk",
+        "label": "Midnight Aurora Dusk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-aurora-dusk-color-theme.json"
+      },
+      {
+        "id": "midnight-aurora-ember",
+        "label": "Midnight Aurora Ember",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-aurora-ember-color-theme.json"
+      },
+      {
+        "id": "midnight-aurora-tide",
+        "label": "Midnight Aurora Tide",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-aurora-tide-color-theme.json"
       }
     ]
   },

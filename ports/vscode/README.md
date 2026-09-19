@@ -13,7 +13,15 @@ ln -sfn "$HOME/Workspace/Repos/my-editor-themes/ports/vscode" \
   "$HOME/.vscode/extensions/kanthi.midnight-aurora-subtle"
 ```
 
-Reload the window, then set Color Theme to **Midnight Aurora Subtle**.
+Reload the window, then set Color Theme to one of:
+
+- **Midnight Aurora Subtle** — original navy (`#0e1319`)
+- **Midnight Aurora Void** — darker near-black
+- **Midnight Aurora Dusk** — lifted navy
+- **Midnight Aurora Ember** — warm dark
+- **Midnight Aurora Tide** — cool blue-black
+
+Variants use VS Code's theme `include` of the Subtle file, then override workbench `colors` and a few token/semantic colors.
 
 To package a VSIX later:
 

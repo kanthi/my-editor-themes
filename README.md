@@ -2,7 +2,7 @@
 
 Personal editor themes, one palette, many ports.
 
-The first theme is **Midnight Aurora Subtle** — the same colors as the current Sublime Text color scheme, ported to VS Code / Antigravity IDE.
+**Midnight Aurora** is a family of dark themes. **Subtle** matches the current Sublime Text color scheme. Void, Dusk, Ember, and Tide keep the same syntax roles with different dark backgrounds and small accent shifts.
 
 ## Layout
 
@@ -22,9 +22,13 @@ VS Code, Cursor, and Antigravity IDE share the **vscode** port. Those apps load 
 
 ## Themes
 
-| Theme | Palette | Ports |
-|-------|---------|-------|
-| Midnight Aurora Subtle | [palettes/midnight-aurora-subtle.json](palettes/midnight-aurora-subtle.json) | vscode, sublime |
+| Theme | Background | Shift | Ports |
+|-------|------------|-------|-------|
+| Midnight Aurora Subtle | `#0e1319` navy | original | vscode, sublime |
+| Midnight Aurora Void | `#080b0f` near-black | muted accents | vscode |
+| Midnight Aurora Dusk | `#161c26` lifted navy | brighter chrome | vscode |
+| Midnight Aurora Ember | `#13110f` warm dark | sage / rose / amber | vscode |
+| Midnight Aurora Tide | `#0b121a` blue-black | ice cyan / steel purple | vscode |
 
 ## Install
 
