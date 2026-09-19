@@ -1,0 +1,26 @@
+# Midnight Aurora Void
+# Ghostty theme. Colors from palettes/midnight-aurora-void.json
+
+background = #080b0f
+foreground = #b8c0ca
+cursor-color = #4eabc0
+cursor-text = #080b0f
+selection-background = #162030
+selection-foreground = #b8c0ca
+
+palette = 0=#0c1016
+palette = 1=#cc6e6e
+palette = 2=#8cb488
+palette = 3=#c88464
+palette = 4=#6aa2d8
+palette = 5=#b09ec8
+palette = 6=#4eabc0
+palette = 7=#b8c0ca
+palette = 8=#4e5e70
+palette = 9=#da96a6
+palette = 10=#8cb488
+palette = 11=#d0927c
+palette = 12=#96bcd4
+palette = 13=#c4b4e0
+palette = 14=#68c0d2
+palette = 15=#e0e6ee

@@ -1,0 +1,26 @@
+# Midnight Aurora Ember
+# Ghostty theme. Colors from palettes/midnight-aurora-ember.json
+
+background = #13110f
+foreground = #d0c8c0
+cursor-color = #64b8b0
+cursor-text = #13110f
+selection-background = #2a221c
+selection-foreground = #d0c8c0
+
+palette = 0=#1a1714
+palette = 1=#d87878
+palette = 2=#a3bc96
+palette = 3=#d49870
+palette = 4=#88b0d4
+palette = 5=#c4a8c0
+palette = 6=#64b8b0
+palette = 7=#d0c8c0
+palette = 8=#6e645c
+palette = 9=#e4a8a4
+palette = 10=#a3bc96
+palette = 11=#dca888
+palette = 12=#a8c4dc
+palette = 13=#d8bcd4
+palette = 14=#7cc8c0
+palette = 15=#eee6de

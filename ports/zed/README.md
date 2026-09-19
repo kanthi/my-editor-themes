@@ -13,6 +13,6 @@ cp -p "$HOME/Workspace/Repos/my-editor-themes/ports/zed/midnight-aurora.json" \
   "$HOME/.config/zed/themes/midnight-aurora.json"
 ```
 
-Then **theme selector** → Midnight Aurora Subtle / Void / Dusk / Ember / Tide.
+Then **theme selector** → Midnight Aurora Subtle / Void / Dusk / Ember / Tide / Haze.
 
 Do not invent syntax hex here. Map from `palettes/midnight-aurora-*.json`.

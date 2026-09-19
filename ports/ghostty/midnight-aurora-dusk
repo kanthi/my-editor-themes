@@ -1,0 +1,26 @@
+# Midnight Aurora Dusk
+# Ghostty theme. Colors from palettes/midnight-aurora-dusk.json
+
+background = #161c26
+foreground = #d0d6de
+cursor-color = #64c0d2
+cursor-text = #161c26
+selection-background = #283646
+selection-foreground = #d0d6de
+
+palette = 0=#1b2230
+palette = 1=#de8484
+palette = 2=#a4c89e
+palette = 3=#da9878
+palette = 4=#86baee
+palette = 5=#c4b0da
+palette = 6=#64c0d2
+palette = 7=#d0d6de
+palette = 8=#6a7c90
+palette = 9=#eaa8b6
+palette = 10=#a4c89e
+palette = 11=#e0a890
+palette = 12=#aed0f0
+palette = 13=#d6c6ee
+palette = 14=#80d2e2
+palette = 15=#eef2f6

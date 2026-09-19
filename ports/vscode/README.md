@@ -20,8 +20,9 @@ Reload the window, then set Color Theme to one of:
 - **Midnight Aurora Dusk** — lifted navy
 - **Midnight Aurora Ember** — warm dark
 - **Midnight Aurora Tide** — cool blue-black
+- **Midnight Aurora Haze** — warm stone, lowest contrast
 
-Variants use VS Code's theme `include` of the Subtle file, then override workbench `colors` and a few token/semantic colors.
+Variants use VS Code's theme `include` of the Subtle file, then override workbench `colors`, semantic tokens, and the full TextMate token set so language-specific scopes follow that variant's palette.
 
 To package a VSIX later:
 
@@ -35,7 +36,7 @@ Follows the VS Code color theme contribution:
 
 - `package.json` → `contributes.themes`
 - `uiTheme`: `vs-dark`
-- workbench `colors`
+- workbench `colors` (including chat, inline chat, sticky scroll, and inlay hints)
 - TextMate `tokenColors`
 - `semanticHighlighting` + `semanticTokenColors`
 

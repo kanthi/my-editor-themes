@@ -2,7 +2,7 @@
 
 Personal editor themes, one palette, many ports.
 
-**Midnight Aurora** is a family of dark themes. **Subtle** matches the current Sublime Text color scheme. Void, Dusk, Ember, and Tide keep the same syntax roles with different dark backgrounds and small accent shifts.
+**Midnight Aurora** is a family of dark themes. **Subtle** matches the current Sublime Text color scheme. Void, Dusk, Ember, Tide, and Haze keep the same syntax roles with different dark backgrounds and small accent shifts. **Haze** is the long-session variant: warmer, lower contrast, less blue.
 
 ## Layout
 
@@ -12,8 +12,9 @@ ports/
   vscode/                         VS Code extension (also Cursor, Antigravity IDE)
   antigravity-ide/                install notes for the vscode port
   cursor/                         install notes for the vscode port
-  sublime/                        color schemes + matching UI theme
+  sublime/                        color schemes + matching UI themes
   zed/                            theme family (schema v0.2.0)
+  ghostty/                        terminal themes
 ```
 
 Editor-specific files live under `ports/<editor>/`. Do not invent a second palette inside a port — extend `palettes/` first, then map those tokens.
@@ -24,11 +25,12 @@ VS Code, Cursor, and Antigravity IDE share the **vscode** port. Those apps load 
 
 | Theme | Background | Shift | Ports |
 |-------|------------|-------|-------|
-| Midnight Aurora Subtle | `#0e1319` navy | original | vscode, sublime, zed |
-| Midnight Aurora Void | `#080b0f` near-black | muted accents | vscode, sublime, zed |
-| Midnight Aurora Dusk | `#161c26` lifted navy | brighter chrome | vscode, sublime, zed |
-| Midnight Aurora Ember | `#13110f` warm dark | sage / rose / amber | vscode, sublime, zed |
-| Midnight Aurora Tide | `#0b121a` blue-black | ice cyan / steel purple | vscode, sublime, zed |
+| Midnight Aurora Subtle | `#0e1319` navy | original | vscode, sublime, zed, ghostty |
+| Midnight Aurora Void | `#080b0f` near-black | muted accents | vscode, sublime, zed, ghostty |
+| Midnight Aurora Dusk | `#161c26` lifted navy | brighter chrome | vscode, sublime, zed, ghostty |
+| Midnight Aurora Ember | `#13110f` warm dark | sage / rose / amber | vscode, sublime, zed, ghostty |
+| Midnight Aurora Tide | `#0b121a` blue-black | ice cyan / steel purple | vscode, sublime, zed, ghostty |
+| Midnight Aurora Haze | `#1e1c18` warm stone | lowest contrast, low blue | vscode, sublime, zed, ghostty |
 
 ## Install
 
@@ -37,6 +39,7 @@ VS Code, Cursor, and Antigravity IDE share the **vscode** port. Those apps load 
 - [Cursor](ports/cursor/README.md)
 - [Sublime Text](ports/sublime/README.md)
 - [Zed](ports/zed/README.md)
+- [Ghostty](ports/ghostty/README.md)
 
 ## New editor port
 

@@ -1,8 +1,8 @@
 {
   "name": "midnight-aurora-subtle",
   "displayName": "Midnight Aurora",
-  "description": "Subtle, low-contrast midnight navy themes. Dark variants: Subtle, Void, Dusk, Ember, Tide.",
-  "version": "0.3.0",
+  "description": "Subtle, low-contrast midnight navy themes. Dark variants: Subtle, Void, Dusk, Ember, Tide, Haze.",
+  "version": "0.4.0",
   "publisher": "kanthi",
   "license": "MIT",
   "engines": {
@@ -23,7 +23,8 @@
     "javascript",
     "typescript",
     "html",
-    "css"
+    "css",
+    "haze"
   ],
   "galleryBanner": {
     "color": "#0e1319",
@@ -60,6 +61,12 @@
         "label": "Midnight Aurora Tide",
         "uiTheme": "vs-dark",
         "path": "./themes/midnight-aurora-tide-color-theme.json"
+      },
+      {
+        "id": "midnight-aurora-haze",
+        "label": "Midnight Aurora Haze",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-aurora-haze-color-theme.json"
       }
     ]
   },

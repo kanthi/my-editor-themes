@@ -18,4 +18,4 @@ This repo holds editor themes. Palettes are shared. Ports are editor-native file
 
 Antigravity IDE and Cursor use the VS Code color-theme contribution (`package.json` `contributes.themes`, `uiTheme`, TextMate `tokenColors`, workbench `colors`). Keep that port valid as a local extension: a folder with `package.json` plus the theme JSON.
 
-Dark variants of Midnight Aurora live next to the Subtle theme and use the official `"include"` field to inherit token rules, then override `colors` / semantic tokens. Do not copy the full Subtle JSON for a new dark background — add a palette and an include file.
+Dark variants of Midnight Aurora live next to the Subtle theme and use the official `"include"` field. Override `colors`, `semanticTokenColors`, and the full `tokenColors` array (same scopes as Subtle, remapped from that variant's palette). Language-specific TextMate rules in Subtle would otherwise keep Subtle's hex. Do not drop `include` or duplicate the VS Code port into `ports/cursor` / `ports/antigravity-ide`.
