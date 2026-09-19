@@ -1,0 +1,40 @@
+{
+  "name": "midnight-aurora-subtle",
+  "displayName": "Midnight Aurora Subtle",
+  "description": "Subtle, low-contrast midnight navy theme. Port of the Sublime Text Midnight Aurora Subtle color scheme.",
+  "version": "0.1.0",
+  "publisher": "kanthi",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "midnight",
+    "aurora",
+    "subtle"
+  ],
+  "galleryBanner": {
+    "color": "#0e1319",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "midnight-aurora-subtle",
+        "label": "Midnight Aurora Subtle",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-aurora-subtle-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kanthi/my-editor-themes.git",
+    "directory": "ports/vscode"
+  }
+}
