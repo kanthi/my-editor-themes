@@ -15,6 +15,7 @@ ln -sfn "$HOME/Workspace/Repos/my-editor-themes/ports/vscode" \
 
 Reload the window, then set Color Theme to one of:
 
+- **Midnight Aurora ST** — the Sublime Text color scheme (`#0e1319`)
 - **Midnight Aurora Subtle** — original navy (`#0e1319`)
 - **Midnight Aurora Void** — darker near-black
 - **Midnight Aurora Dusk** — lifted navy

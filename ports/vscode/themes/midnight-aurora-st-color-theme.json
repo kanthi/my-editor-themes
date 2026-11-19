@@ -1,0 +1,6 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Midnight Aurora ST",
+  "type": "dark",
+  "include": "./midnight-aurora-subtle-color-theme.json"
+}
